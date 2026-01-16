@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer, Alarm, Time</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="msg">
+        <h1>Make your day productive!</h1>
+    </div>
+    <div class="container">
+        <div class="timer boxes">
+            <h2>Timer</h2>
+            <div class="timer-content">
+                <div class="timer-display">
+                    <span id="hours">00</span>:
+                    <span id="minutes">00</span>:
+                    <span id="seconds">00</span>
+                </div>
+                <div class="timer-buttons">
+                    <button id="start" type="button">Start</button>
+                    <button id="tstop" type="button">Stop</button>
+                    <button id="reset" type="button">Reset</button>
+                </div>
+            </div>
+        </div>
+        <div class="clock boxes">
+            <h2>Clock</h2>
+            <div class="clock-content">
+                <div class="clock-display">
+                    <span id="chours">00</span>:
+                    <span id="cminutes">00</span>:
+                    <span id="cseconds">00</span>
+                </div>
+                <p>All times are in 24 hours format and pakistan time zone</p>
+            </div>
+        </div>
+        <div class="alarm boxes">
+            <h2>Alarm</h2>
+            <div class="alarm-content">
+                <div class="alarm-display">
+                    <span id="ahours">00</span>:
+                    <span id="aminutes">00</span>:
+                    <span id="aseconds">00</span>
+                </div>
+                <div class="alarm-buttons">
+                    <button id="set" type="button">Set</button>
+                    <button id="stop" type="button">Stop</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="logic.js"></script>
+</body>
+
+</html>

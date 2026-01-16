@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.msg h1 {
+    color: #4db6ac;
+}
+
+.msg {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(214, 202, 202);
+}
+
+.container {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 84vh;
+}
+
+.boxes {
+    width: 300px;
+    height: 250px;
+    background-color: #1c2833;
+    border-radius: 20px;
+}
+
+.boxes h2 {
+    color: #4db6ac;
+    text-align: center;
+    height: 3rem;
+    font-size: 2rem;
+}
+
+.timer-content {
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.timer-display {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.timer-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.timer-buttons button {
+    height: 3rem;
+    width: 3.5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #0099ff;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.timer-buttons button:hover {
+    background-color: #0066cc;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.timer-buttons button:active {
+    transform: scale(0.9);
+}
+
+.clock-content {
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.clock-display {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.clock-content p {
+    color: #70c6ff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.alarm-content {
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.alarm-display {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.alarm-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.alarm-buttons button {
+    height: 3rem;
+    width: 3.5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #0099ff;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.alarm-buttons button:hover {
+    background-color: #0066cc;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.alarm-buttons button:active {
+    transform: scale(0.9);
+}
+
+.boxes:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+    transition: all 0.3s ease-in-out;
+}
+
+.boxes:active {
+    transform: scale(0.9);
+}
