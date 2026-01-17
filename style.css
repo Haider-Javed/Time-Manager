@@ -104,7 +104,7 @@
 }
 
 .clock-content p {
-    color:linear-gradient(90deg, #fffff0, #f1c40f);
+    color:#fcd303;
     font-size: 1.2rem;
     font-weight: bold;
     text-align: center;
@@ -165,3 +165,4 @@
     transform: scale(0.9);
 
 }
+
